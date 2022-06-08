@@ -1,0 +1,9 @@
+1 npm install -g json-server
+
+2 create your json with any {}
+
+3 json-server --watch your-name.json
+
+4 default:
+ password- password, login- steve.jobs@example.com
+
