@@ -26,7 +26,7 @@ function Form() {
 
 
         await axios.get('http://localhost:3000/users').then(response => {
-            console.log(response)
+
             const persons = response.data;
             if (persons.map(i => i.login) && getValues('login') === LOGIN && persons.map(i => i.password) && getValues('password') !== PASSWORD) {
                 setPassError(true)
